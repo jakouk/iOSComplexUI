@@ -13,9 +13,9 @@ class ViewController: UIViewController {
   @IBOutlet weak var mainCollectionView: UICollectionView!
   var stringList = ["sky", "하늘", "blue", "파랑", "taiwan", "대만"]
   
-  var tableSubject = ["승계비용", "보증금", "잔존기간"]
-  var tableSub = ["(승계시 구매자가 판매자에게 지불)", "(OO종료 후 차량 반납시 환급)", "(OO 종료 후 차량 인수 비용)"]
-  var tableResult = ["0만원", "0만원", "0만원"]
+  var tableSubject = ["대한민국", "미국", "영국"]
+  var tableSub = ["(아시아)", "(아메리카)", "(유럽)"]
+  var tableResult = ["서울", "워싱턴", "런던"]
   override func viewDidLoad() {
     super.viewDidLoad()
     mainCollectionView.dataSource = self
