@@ -52,14 +52,13 @@ extension InfoCollectionCell: UICollectionViewDataSource {
       }
     }
   }
-  
-  func numberOfSections(in collectionView: UICollectionView) -> Int {
-    if collectionView == imageCollectionView {
-      return 1
-    } else {
-      return 1
-    }
-  }
+//  func numberOfSections(in collectionView: UICollectionView) -> Int {
+//    if collectionView == imageCollectionView {
+//      return 1
+//    } else {
+//      return 1
+//    }
+//  }
 }
 
 extension InfoCollectionCell: UICollectionViewDelegateFlowLayout {

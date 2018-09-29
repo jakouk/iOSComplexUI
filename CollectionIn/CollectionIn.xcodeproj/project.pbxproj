@@ -11,7 +11,6 @@
 		735AF6DD215B68D1004CE93A /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AF6DC215B68D1004CE93A /* ImageCell.swift */; };
 		735AF6DF215B68E1004CE93A /* SelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AF6DE215B68E1004CE93A /* SelectCell.swift */; };
 		735AF6E1215B68EE004CE93A /* NormalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AF6E0215B68EE004CE93A /* NormalCell.swift */; };
-		735AF6E3215B6BD9004CE93A /* sky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 735AF6E2215B6BD9004CE93A /* sky.JPG */; };
 		735AF6E5215B83F1004CE93A /* DataCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AF6E4215B83F1004CE93A /* DataCollectionCell.swift */; };
 		735AF6E7215B868F004CE93A /* InfoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 735AF6E6215B868F004CE93A /* InfoTableCell.swift */; };
 		739A87D9215A7F8100BFDB54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 739A87D8215A7F8100BFDB54 /* AppDelegate.swift */; };
@@ -19,6 +18,7 @@
 		739A87DE215A7F8100BFDB54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739A87DC215A7F8100BFDB54 /* Main.storyboard */; };
 		739A87E0215A7F8300BFDB54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 739A87DF215A7F8300BFDB54 /* Assets.xcassets */; };
 		739A87E3215A7F8300BFDB54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 739A87E1215A7F8300BFDB54 /* LaunchScreen.storyboard */; };
+		73EC9F18215F4CF4008F09B4 /* sky.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 73EC9F17215F4CF4008F09B4 /* sky.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,7 +26,6 @@
 		735AF6DC215B68D1004CE93A /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		735AF6DE215B68E1004CE93A /* SelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCell.swift; sourceTree = "<group>"; };
 		735AF6E0215B68EE004CE93A /* NormalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalCell.swift; sourceTree = "<group>"; };
-		735AF6E2215B6BD9004CE93A /* sky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sky.JPG; path = ../../sky.JPG; sourceTree = "<group>"; };
 		735AF6E4215B83F1004CE93A /* DataCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionCell.swift; sourceTree = "<group>"; };
 		735AF6E6215B868F004CE93A /* InfoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableCell.swift; sourceTree = "<group>"; };
 		739A87D5215A7F8100BFDB54 /* CollectionIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +35,7 @@
 		739A87DF215A7F8300BFDB54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		739A87E2215A7F8300BFDB54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		739A87E4215A7F8300BFDB54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73EC9F17215F4CF4008F09B4 /* sky.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sky.JPG; path = ../../../sky.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 				739A87DF215A7F8300BFDB54 /* Assets.xcassets */,
 				739A87E1215A7F8300BFDB54 /* LaunchScreen.storyboard */,
 				739A87E4215A7F8300BFDB54 /* Info.plist */,
-				735AF6E2215B6BD9004CE93A /* sky.JPG */,
+				73EC9F17215F4CF4008F09B4 /* sky.JPG */,
 			);
 			path = CollectionIn;
 			sourceTree = "<group>";
@@ -144,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				739A87E3215A7F8300BFDB54 /* LaunchScreen.storyboard in Resources */,
-				735AF6E3215B6BD9004CE93A /* sky.JPG in Resources */,
+				73EC9F18215F4CF4008F09B4 /* sky.JPG in Resources */,
 				739A87E0215A7F8300BFDB54 /* Assets.xcassets in Resources */,
 				739A87DE215A7F8100BFDB54 /* Main.storyboard in Resources */,
 			);
